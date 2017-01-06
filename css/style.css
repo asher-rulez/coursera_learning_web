@@ -153,14 +153,36 @@ body {
     }
     .navbar-brand h1 {
         padding-top: 10px;
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .navbar-brand p {
-        font-size: .6em;
+        font-size: 1em;
         margin-top: 12px;
     }
     .navbar-brand {
         padding-top: 10px;
         height: 80px;
+    }
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    #call-btn>a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 10px;
+        padding: 5px;
+        border: 2px solid #4C8099;
+        background-color: #A3BFCC;
+        color: #4C8099;
+        border-radius: 20px;
+    }
+    #xs-order {
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
     }
 }
