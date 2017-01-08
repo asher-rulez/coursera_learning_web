@@ -92,13 +92,14 @@ body {
     border: 1px solid #4C8099;
 }
 
-#home-tiles {
+.tiles-bar {
     margin-top: 20px;
 }
-
+/*
 #activities-tile,
 #info-tile,
-#map-tile {
+#map-tile */
+.homepage-tile{
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
