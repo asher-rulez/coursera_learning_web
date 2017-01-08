@@ -1,10 +1,10 @@
 {
     "version": "0.1.0",
-    "command": "explorer",    
+    "command": "explorer",
     "windows": {
         "command": "///Program Files (x86)/Google/Chrome/Application/chrome.exe",
         "args": ["-incognito"]
     },
-    "args": ["C:\\Users\\Asher\\Documents\\dereh ha sus web site\\coursera_learning_web\\index.html"]
-    //"args": ["C:\\Users\\vitaly_nov\\Documents\\coursera_learning_html5\\git_repo\\coursera_learning_web\\index.html"]
+    //"args": ["C:\\Users\\Asher\\Documents\\dereh ha sus web site\\coursera_learning_web\\index.html"]
+    "args": ["C:\\Users\\vitaly_nov\\Documents\\coursera_learning_html5\\git_repo\\coursera_learning_web\\index.html"]
 }
