@@ -115,6 +115,11 @@ body {
     background-position: right;
 }
 
+#map-tile{
+    background: url('../images/map-picture.jpg') no-repeat;
+    background-position: right;
+}
+
 .homepage-tile span {
     position: absolute;
     bottom: 0;
