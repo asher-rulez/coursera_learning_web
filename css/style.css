@@ -98,6 +98,7 @@ body {
     position: relative;
     border: 2px solid #2b4754;
     overflow: hidden;
+    background-position: right;
 }
 
 .homepage-tile:hover {
@@ -146,8 +147,10 @@ body {
     font-size: 1em;
 }
 
-.footer-section > p{
+.footer-section > p, .footer-section > a > p{
     font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
 }
 
 .webmaster {
@@ -161,6 +164,41 @@ body {
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
     -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+#riding-lessons-tile{
+    background: url('../images/alice.jpg') no-repeat;
+    background-position: right;
+}
+
+#therapeutic-tile{
+    background: url('../images/therapeutic.jpg') no-repeat;
+    background-position: right;
+}
+
+#sport-tile{
+    background: url('../images/sports.jpg') no-repeat;
+    background-position: right;
+}
+
+#trip-tile{
+    background: url('../images/trips.jpg') no-repeat;
+    background-position: right;
+}
+
+#pension-tile{
+    background: url('../images/pension.jpg') no-repeat;
+    background-position: right;
+}
+
+#photosession-tile{
+    background: url('../images/photosessions.jpg') no-repeat;
+    background-position: right;
+}
+
+#special-activities-tile{
+    background: url('../images/special-activities.jpg') no-repeat;
+    background-position: right;
 }
 
 
