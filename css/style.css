@@ -113,12 +113,12 @@ body {
 }
 
 #activities-tile {
-    background: url('../images/alice.jpg') no-repeat;
+    background: url('../images/info_tile.jpg') no-repeat;
     background-position: right;
 }
 
 #info-tile {
-    background: url('../images/info_tile.jpg') no-repeat;
+    background: url('../images/alice.jpg') no-repeat;
     background-position: right;
 }
 
