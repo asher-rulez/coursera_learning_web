@@ -134,6 +134,12 @@ body {
     opacity: .7;
 }
 
+.big-map{
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
 
 /********** Large devices only **********/
 
@@ -262,10 +268,9 @@ body {
         margin-top: 20px;
         padding: 0;
     }
-    /*.img-xs {
-        border: 0;
-        border-radius: 15px;
-    }*/
+    .container-gallery, .big-map-row {
+        margin-top: 20px;
+    }
 }
 
 
