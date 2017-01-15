@@ -117,7 +117,8 @@ body {
 
 #map-tile{
     background: url('../images/map-picture.JPG') no-repeat;
-    background-position: right;
+    background-size:cover;
+    background-position: center;
 }
 
 .homepage-tile span {
@@ -176,29 +177,10 @@ body {
     background-position: right;
 }
 
-#therapeutic-tile{
-    background: url('../images/therapeutic.jpg') no-repeat;
-    background-position: right;
-}
-
-#sport-tile{
-    background: url('../images/sports.jpg') no-repeat;
-    background-position: right;
-}
-
-#trip-tile{
-    background: url('../images/trips.jpg') no-repeat;
-    background-position: right;
-}
-
 #pension-tile{
     background: url('../images/pension.jpg') no-repeat;
-    background-position: right;
-}
-
-#photosession-tile{
-    background: url('../images/photosessions.jpg') no-repeat;
-    background-position: right;
+    background-size:cover;
+    background-position: center;
 }
 
 #special-activities-tile{
@@ -225,6 +207,24 @@ body {
     #map-tile-helper {
         padding-right: 0;
     }
+
+    #photosession-tile{
+    background: url('../images/tiles/md/photosession.jpg') no-repeat;
+    background-position: right;
+    }
+    #trip-tile{
+    background: url('../images/tiles/md/trip.jpg') no-repeat;
+    background-position: right;
+    }
+    #therapeutic-tile{
+    background: url('../images/tiles/md/therapeutic.jpg') no-repeat;
+    background-position: right;
+    }
+    #sport-tile{
+    background: url('../images/tiles/md/sport.jpg') no-repeat;
+    background-position: right;
+    }
+
 }
 
 
@@ -252,6 +252,24 @@ body {
     .container .jumbotron {
         height: 540px;
     }
+
+    #photosession-tile{
+    background: url('../images/tiles/md/photosession.jpg') no-repeat;
+    background-position: right;
+    }
+    #trip-tile{
+    background: url('../images/tiles/md/trip.jpg') no-repeat;
+    background-position: right;
+    }
+    #therapeutic-tile{
+    background: url('../images/tiles/md/therapeutic.jpg') no-repeat;
+    background-position: right;
+    }
+    #sport-tile{
+    background: url('../images/tiles/md/sport.jpg') no-repeat;
+    background-position: right;
+    }
+
 }
 
 
@@ -283,6 +301,23 @@ body {
 
     .nav > li > a {
         padding: 5px 5px;
+    }
+
+    #photosession-tile{
+    background: url('../images/tiles/sm/photosession.jpg') no-repeat;
+    background-position: right;
+    }
+    #trip-tile{
+    background: url('../images/tiles/sm/trip.jpg') no-repeat;
+    background-position: right;
+    }
+    #therapeutic-tile{
+    background: url('../images/tiles/sm/therapeutic.jpg') no-repeat;
+    background-position: right;
+    }
+    #sport-tile{
+    background: url('../images/tiles/sm/sport.jpg') no-repeat;
+    background-position: right;
     }
 }
 
@@ -339,6 +374,27 @@ body {
     }
     .big-map{
         height: 250px;
+    }
+
+    #photosession-tile{
+    background: url('../images/tiles/xs/photosession.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
+    #trip-tile{
+    background: url('../images/tiles/xs/trip.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
+    #therapeutic-tile{
+    background: url('../images/tiles/xs/therapeutic.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
+    #sport-tile{
+    background: url('../images/tiles/xs/sport.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
     }
 }
 
